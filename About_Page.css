@@ -1,0 +1,279 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -60px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 15px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #Home {
+    top: 20px;
+    background-color: #595b5a;
+  }
+  
+  #Gallery {
+    top: 80px;
+    background-color: #595b5a; /* Red */
+  }
+  
+  #contact {
+    top: 140px;
+    background-color: #555 /* Light Black */
+  }
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(80, 80, 80); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(213, 211, 211); /* Add a dark-grey background on hover */
+    color: #000;
+  }
+
+  .svg{
+    transform: translate(50%, 50%);
+    z-index: 2;
+  }
+
+  .svg2{
+    transform: translate(-50%, 150%);
+    z-index: 2;
+  }
+  .svg3{
+    transform: translate(-150%, 260%);
+    z-index: 2;
+  }
+  
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: absolute; /* Stay fixed */
+    top: 45%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .bg2-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: absolute; /* Stay fixed */
+    top: 89%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .bg3-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: absolute; /* Stay fixed */
+    top: 135%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  a:link {
+    color: rgb(249, 254, 249);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(233, 229, 230);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .race {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border: 10px solid #f1f1f1;
+    position: absolute; /* Stay fixed */
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .Race1 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 10px solid #f1f1f1;
+    position: absolute; /* Stay fixed */
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .drift {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border: 10px solid #f1f1f1;
+    position: absolute; /* Stay fixed */
+    top: 400%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .drift1 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 10px solid #f1f1f1;
+    position: absolute; /* Stay fixed */
+    top: 450%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .customize {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border: 10px solid #f1f1f1;
+    position: absolute; /* Stay fixed */
+    top: 550%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .customize1 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 10px solid #f1f1f1;
+    position: absolute; /* Stay fixed */
+    top: 600%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+  }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>NFS:Heat - FanPage</title>
+
+        <link rel = "icon" href = "ICON.png" type = "image/x-icon">
+        <link rel = "stylesheet" href="Home_Page.css">
+    </head>
+    <body>
+
+        <video autoplay muted loop id="myVideo">
+            <source src="HomeBG.mp4" type="video/mp4">
+          </video>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="About_Page.html" id="About">About</a>
+            <a href="Gallery.html" id="Gallery">Gallery</a>
+            <a href="Contact_Page.html" id="Contact">Contact</a>
+        </div>
+
+        <div class="bg-text">Welcome racer, Discover the thrill of Palm City and chase the race</div>
+
+        <div class="Sum-text">Game Summary</div>
+
+        <div class="Sum2-text">Need for Speed Heat is a racing game set in Palm City, a fictitious version of Miami, Florida, 
+            and its surrounding environments. The in-game map has a varied topography, including open spaces and hilly regions. 
+            Players can flip between day and night, however unlike Need for Speed Payback, the game does not feature a 24-hour 
+            day-and-night cycle. Players can participate in legal race events throughout the day to earn money to buy new cars 
+            and other enhancements. Players can also participate in illegal street racing during the night, which awards REP. A rogue 
+            police task team that patrols Palm City's streets, that is tasked with shutting down racing, will be alerted by nighttime racing.</div>
+
+            <div class="Why-text">Why should you buy the game?</div>
+
+            <div class="Why2-text">
+                <ul>
+                    <li>High Paced & Action filled</li>
+                    <li>48 and a half Hours of gameplay</li>
+                    <li>Customization options</li>
+                    <li>Incredible storyline</li>
+                </ul>
+                
+            </div>
+    
+            <div class="break-text">
+                .
+            </div>
+
+            <div>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                <script>
+                    //Get the button:
+                    mybutton = document.getElementById("myBtn");
+
+                    // When the user scrolls down 20px from the top of the document, show the button
+                    window.onscroll = function() {scrollFunction()};
+
+                    function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                        mybutton.style.display = "none";
+                    }
+                    }
+
+                    // When the user clicks on the button, scroll to the top of the document
+                    function topFunction() {
+                    document.body.scrollTop = 0; // For Safari
+                    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                    }
+                </script>
+            </div>
+                
+    </body>
+
+</html>
