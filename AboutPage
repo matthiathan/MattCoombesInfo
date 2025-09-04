@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>NFS:Heat - FanPage</title>
+        <link rel = "icon" href = "ICON.png" type = "image/x-icon">
+        <link rel = "stylesheet" href="About_Page.css">
+    </head>
+    <body>
+
+        <video autoplay muted loop id="myVideo">
+            <source src="BGVideo2.mp4" type="video/mp4">
+          </video>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="Home_Page.html" id="Home">Home</a>
+            <a href="Gallery.html" id="Gallery">Gallery</a>
+            <a href="Contact_Page.html" id="contact">Contact</a>
+        </div>
+
+        <div>
+            <object class="svg" data="about.svg" width="300" height="300"></object>
+            <object class="svg2" data="about2.svg" width="300" height="300"></object>
+            <object class="svg3" data="About4.svg" width="300" height="300"></object>
+            <div class="bg-text"> <a href="#race">Race</a></div>
+            <div class="bg2-text"> <a href="#drift">Drift</a></div>
+            <div class="bg3-text"> <a href="#customize">Customize</a> </div>
+        </div>
+
+        <div class="race"><a id="race">Race</a></div>
+        <div class="Race1">
+            Race is an event type in Need for Speed: Heat, made up of either multiple lap circuits or single point-to-point sprints, 
+            and take place on roads. The first racer to cross the finish line after completing all laps or reaching the end point of 
+            a sprint first is the winner. <br><br>
+
+            Every route has multiple checkpoints that racers must pass through in order and they all have a recommended road-grip handling 
+            profile.<br><br>
+
+            An event can take place during the day or at night: <br><br>
+            <ul>
+                <li>
+                    Day - Players earn bank (Bank) from participating in events hosted by the Speedhunters Showdown and police will not get involved.
+                </li> 
+                <li>
+                    Night - Players earn rep (Rep) from participating in illicit street racing events and engaging with the PCPD.
+                </li>
+            </ul>
+        </div>
+
+        <div class="drift"><a id="drift">Drift</a></div>
+        <div class="drift1">
+            Drift Trial is an event type in Need for Speed: Heat, made up of either multiple lap circuits or single point-to-point sprints, 
+            and take place on roads. <br><br>
+
+            The player has to beat a score target before they complete all laps of a circuit or reach the end of a point-to-point sprint. <br><br>
+
+            Every route has multiple checkpoints that players must pass through in order and they all have a recommended road-drift handling 
+            profile. <br><br>
+
+            An event can take place during the day or at night: <br><br>
+            <ul>
+                <li>
+                    Day - Players earn bank (Bank) from participating in events hosted by the Speedhunters Showdown and police will not get involved.
+                </li> 
+                <li>
+                    Night - Players earn rep (Rep) from participating in illicit street racing events and engaging with the PCPD.
+                </li>
+            </ul>
+        </div>
+
+        <div class="customize"><a id="customize">Customization</a></div>
+        <div class="customize1">
+            <ul>
+                <li>
+                    PERFORMANCE CUSTOMIZATION <br>
+                    weak your car’s performance to match your driving preference, whatever your style. There are four main areas you can customize:
+                    Engine, Chassis, Drivetrain, and Auxiliary. Upgrading the Engine will give you more power to play with. But if you’re all about
+                    how your ride handles you’ll want to focus on the Chassis. Drivetrain gives you access to a combination of handling parts and
+                    pure performance parts. And Auxiliary covers everything from nitrous to repair kits.
+                </li>
+                <br>
+                <li>
+                    VISUAL CUSTOMIZATION <br>
+                    If you can dream it, you can design it in Need for Speed Heat. You’ve got a massive assortment of paint and finish options to
+                     choose from, not to mention the hottest splitters, bumpers, tires, grilles, spoilers, and morel. Wild customs? Go faster 
+                     stripes? It’s all you. Looking for even more options? The wrap editor is back and better than ever, with new decals, 
+                     collectibles, and cop logos!
+                </li>
+                <br>
+                <li>
+                    Character Customization <br>
+                    For the first time in Need for Speed history customization doesn’t begin and end on four wheels. Now you can customize 
+                    your character to fit your mood, your style, or to match the look and feel of your ride.
+                </li>
+            </ul>
+        </div>
+
+
+        <div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            <script>
+                //Get the button:
+                mybutton = document.getElementById("myBtn");
+
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+
+                function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+                }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                }
+            </script>
+        </div>
+
+    </body>
+
+</html>
